@@ -1,0 +1,16 @@
+{
+  "name": "dr-tracker-app",
+  "version": "1.0.0",
+  "description": "Dr. Tracker conversational assistant with an in-chat dummy supplements marketplace",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.18",
+    "@langchain/openai": "^0.3.14",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "zod": "^3.23.8"
+  }
+}
